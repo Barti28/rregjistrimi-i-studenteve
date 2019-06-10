@@ -1,9 +1,26 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
+    background-color: lightblue;
+}
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: black;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 58px;
+    margin-left: 80px;
+    background-color: GrayText;
+    border-radius: 50px;
+}
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -17,6 +34,82 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.div1 {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 58px;
+    margin-left: 80px;
+}
+.div2 {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 58px;
+    margin-left: 80px;
+}
+.div3 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 58px;
+    margin-left: 80px;
+}
+.div4 {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 58px;
+    margin-left: 80px;
+    
+}
+.div5 {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-left: 214px;
+}
+.div6 {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 429px;
+    margin-left: 511px;
+}
+.div7 {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 58px;
+    margin-left: 80px;
+}
+.div9 {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    margin-right: 58px;
+    margin-left: 80px;
+}
+.fut{
+    margin-top:19px;
+    margin-left:19px;
+}
+#gv_tabela {
+    background-color: blue;
+    color:green;
+}
+
+
+
 
 
 /* Responsive: Portrait tablets and up */
