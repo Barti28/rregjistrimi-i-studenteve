@@ -159,11 +159,11 @@ namespace ProjektiFinal
                 smtpClient.EnableSsl = true;
                 smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtpClient.UseDefaultCredentials = false;
-                smtpClient.Credentials = new NetworkCredential("projektpune11@gmail.com", "lusi1234");
+                smtpClient.Credentials = new NetworkCredential("email@gmail.com", "password");
                 MailMessage message = new MailMessage();
                 message.To.Add(txt_email.Text);
                 message.IsBodyHtml = true;
-                message.From = new MailAddress("projektpune11@gmail.com");
+                message.From = new MailAddress("email@gmail.com");
                 message.Subject = "Te dhenat e studentit";
                 message.Body = "<!DOCTYPE html> " +
                 "<html xmlns=\"http://www.w3.org/1999/xhtml\">" +
